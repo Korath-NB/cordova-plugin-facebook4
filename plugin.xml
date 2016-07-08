@@ -131,6 +131,13 @@
                     <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
                     <false/>
                 </dict>
+				<key>staging.neobird.de</key>
+                <dict>
+                    <key>NSIncludesSubdomains</key>
+                    <true/>
+                    <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+                    <false/>
+                </dict>
             </dict>
           </dict>
         </config-file>
