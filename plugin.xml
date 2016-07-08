@@ -108,8 +108,8 @@
 
         <config-file target="*-Info.plist" parent="NSAppTransportSecurity">
           <dict>
-			<key>NSAllowsArbitraryLoads</key>
-			<true/>
+	    <key>NSAllowsArbitraryLoads</key>
+            <true/>
             <key>NSExceptionDomains</key>
             <dict>
                 <key>facebook.com</key>
@@ -133,7 +133,7 @@
                     <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
                     <false/>
                 </dict>
-				<key>staging.neobird.de</key>
+		<key>staging.neobird.de</key>
                 <dict>
                     <key>NSIncludesSubdomains</key>
                     <true/>
