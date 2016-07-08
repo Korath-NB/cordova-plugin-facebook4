@@ -108,7 +108,7 @@
 
         <config-file target="*-Info.plist" parent="NSAppTransportSecurity">
           <dict>
-	    <key>NSAllowsArbitraryLoads</key>
+			<key>NSAllowsArbitraryLoads</key>
             <true/>
             <key>NSExceptionDomains</key>
             <dict>
@@ -126,14 +126,8 @@
                     <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
                     <false/>
                 </dict>
-                <key>akamaihd.net</key>
-                <dict>
-                    <key>NSIncludesSubdomains</key>
-                    <true/>
-                    <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
-                    <false/>
-                </dict>
-		<key>staging.neobird.de</key>
+                
+				<key>staging.neobird.de</key>
                 <dict>
                     <key>NSIncludesSubdomains</key>
                     <true/>
